@@ -57,43 +57,26 @@
         },
       ];
 
-      //   let Article = (props) => {
-      //     return (
-      //       <>
-      //         <img src={props.title} alt="" />
-      //       </>
-      //     );
-      //   };
-
-      //   let Articles = (props) => {
-      //     return (
-      //       <>
-      //         <Article img />;
-      //       </>
-      //     );
-      //   };
-
-      let Articles = (props) => {
+      function Article(props) {
+        console.log(props);
         return (
           <>
-            {articles.map((article) => {
-                <Articles  />;
-            })}
+            <h1>{props.articleInfo.title}</h1>
+            <p>{props.articleInfo.description}</p>
+            <p>{props.articleInfo.comments} Comments</p>
+            <img
+              src={props.articleInfo.imageURL}
+              alt={props.articleInfo.title}
+            />
           </>
         );
-      };
-
-      let Article = (props) =>{
-          return (
-              <>
-              <Articles />;
-              </>
-          )
       }
 
-      
+      function Articles() {
+        return articles.map((article) => <Article articleInfo={article} />);
+      }
 
-      ReactDOM.render(art, document.querySelector('#root'));
+      ReactDOM.render(<Articles />, document.getElementById('root'));
     </script>
   </body>
 </html>
