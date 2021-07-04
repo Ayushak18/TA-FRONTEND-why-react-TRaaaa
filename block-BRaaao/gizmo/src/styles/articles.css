@@ -1,0 +1,12 @@
+.articles {
+  font-size: 58px;
+  text-align: center;
+  background: rgb(198, 173, 230);
+  padding: 100px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
