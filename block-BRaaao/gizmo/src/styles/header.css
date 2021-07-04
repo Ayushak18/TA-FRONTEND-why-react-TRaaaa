@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(30, 153, 210);
+}
+
+.brand {
+  font-size: 34px;
+  font-weight: 700;
+  color: rgb(255, 140, 119);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-right: 20px;
+}
