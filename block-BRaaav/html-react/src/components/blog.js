@@ -15,7 +15,7 @@ function Blog() {
             <div className="flex-40 font-0">
               <img
                 className="flexible-img"
-                src="assets/media/blog-image1.jpg"
+                src="media/blog-image1.jpg"
                 alt="Blog"
               />
             </div>
@@ -36,7 +36,7 @@ function Blog() {
             <div className="flex-40 font-0">
               <img
                 className="flexible-img"
-                src="assets/media/blog-image2.jpg"
+                src="media/blog-image2.jpg"
                 alt="Blog "
               />
             </div>
@@ -57,7 +57,7 @@ function Blog() {
             <div className="flex-40 font-0">
               <img
                 className="flexible-img"
-                src="assets/media/blog-image3.jpg"
+                src="media/blog-image3.jpg"
                 alt="Blog "
               />
             </div>
@@ -78,7 +78,7 @@ function Blog() {
             <div className="flex-40 font-0">
               <img
                 className="flexible-img"
-                src="assets/media/blog-image4.jpg"
+                src="media/blog-image4.jpg"
                 alt="Blog "
               />
             </div>

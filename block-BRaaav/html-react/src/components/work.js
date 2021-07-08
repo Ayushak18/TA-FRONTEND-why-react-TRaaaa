@@ -14,28 +14,28 @@ function Work() {
           <div class="flex-23">
             <img
               class="flexible-img"
-              src="assets/media/work-image1.jpg"
+              src="media/work-image1.jpg"
               alt="Work 1"
             />
           </div>
           <div class="flex-23">
             <img
               class="flexible-img"
-              src="assets/media/work-image2.jpg"
+              src="media/work-image2.jpg"
               alt="Work 1"
             />
           </div>
           <div class="flex-23">
             <img
               class="flexible-img"
-              src="assets/media/work-image3.jpg"
+              src="media/work-image3.jpg"
               alt="Work 1"
             />
           </div>
           <div class="flex-23">
             <img
               class="flexible-img"
-              src="assets/media/work-image4.jpg"
+              src="media/work-image4.jpg"
               alt="Work 1"
             />
           </div>

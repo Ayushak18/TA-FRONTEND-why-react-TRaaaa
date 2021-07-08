@@ -55,7 +55,7 @@ function About() {
         <div className="flex-30">
           <img
             className="flexible-img about-img"
-            src="public/media/about-image.jpg"
+            src="media/about-image.jpg"
             alt="About"
           />
         </div>
